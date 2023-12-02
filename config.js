@@ -13,7 +13,7 @@ global.author = process.env.Author || "@PikaBotz"
 global.packname = process.env.PackName || "Queen Anya v2 MD" 
 global.myweb = process.env.Web || "https://github.com/PikaBotz" 
 global.footer = process.env.Footer || "© Queen Anya Bot" 
-global.prefa = process.env.Prefix || ['-'] 
+global.prefa = process.env.Prefix || ['.'] 
 global.themeemoji = process.env.ThemeEmoji || "🎐" 
 global.ownername = process.env.Owner_Name || "Pika~Kun" 
 global.ownernumber = process.env.Owner_Number || "916900904828" 
@@ -22,7 +22,7 @@ global.timezone = process.env.TimeZone || "Asia/Kolkata"
 global.instagramId = process.env.Insta || "8.08_only_mine" 
 global.email = process.env.Email_Id || "example@example.com" 
 
-global.mongoUrl = process.env.MongoDB || "Enter"; 
+global.mongoUrl = process.env.MongoDB || "mongodb+srv://DARKSHAN:3000@cluster0 .t1wsjlv.mongodb.net/"; 
 
 global.warns = process.env.Warns_Limits || 3; 
 
@@ -106,7 +106,7 @@ module.exports = {
   packname: process.env.PackName || "Queen Anya v2 MD",
   myweb: process.env.Web || "https://github.com/PikaBotz",
   footer: process.env.Footer || "© Queen Anya Bot",
-  prefa: process.env.Prefix || ['-'],
+  prefa: process.env.Prefix || ['.'],
   themeemoji: process.env.ThemeEmoji || "🎐",
   ownername: process.env.Owner_Name || "Pika~Kun",
   ownernumber: process.env.Owner_Number || "916900904828",
